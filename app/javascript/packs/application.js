@@ -12,6 +12,26 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
+require("@rails/ujs").start()
+require("turbolinks").start()
+require("@rails/activestorage").start()
+require("channels")
+require('bootstrap/dist/js/bootstrap.min.js')
+
+require("@rails/ujs").start()
+require("turbolinks").start()
+require("@rails/activestorage").start()
+require("channels")
+require("jquery")
+require('bootstrap/dist/js/bootstrap.min.js')
+
+
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+//= require rails-ujs
+//= require activestorage
+//= require turbolinks
+//= require_tree .
+
+import "./application"
